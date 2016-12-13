@@ -69,18 +69,27 @@ Arduino is the most famous open-source prototyping platform as its easy-to-use h
 
 ####[Seeeduino V4.2](https://www.seeedstudio.com/Seeeduino-V4.2-p-2517.html)
 Seeeduino v4 is an Open Source, Arduino-compatible ATmega328 MCU development board. We think Seeeduino v4 is one of the best Arduino derivatives/compatibles available. Seeeduino v4 is feature rich, much more stable, easy-to-use and even good looking.
-![](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/images/cover.JPG)
+
+<div class="text-center">
+<img src="https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/images/cover.JPG?raw=true" width="50%" height="50%">
+</div>
 
 
 ####[Motor Shield V2.0](https://www.seeedstudio.com/Motor-Shield-V2.0-p-1377.html)
 The Motor Shield is a driver module for motors that allows you to use Arduino to control the working speed and direction of the motor.
-![](https://github.com/SeeedDocument/Motor_Shield_V2.0/blob/master/image/500px-Motorshield_01.jpg?raw=true)
+
+<div class="text-center">
+<img src="https://github.com/SeeedDocument/Motor_Shield_V2.0/blob/master/image/500px-Motorshield_01.jpg?raw=true" width="50%" height="50%">
+</div>
 
 
 ####[Base Shield V2](https://www.seeedstudio.com/Base-Shield-V2-p-1378.html)
 
 As an expansion board, Base Shield v2 has many Grove connectors, making it convenient for you to use Grove module together. And It is compatible with a series of Arduino products.
-![](https://raw.githubusercontent.com/SeeedDocument/Base_Shield_V2/master/img/Base_Shield_v2-1.png)
+
+<div class="text-center">
+<img src="https://raw.githubusercontent.com/SeeedDocument/Base_Shield_V2/master/img/Base_Shield_v2-1.png" width="50%" height="50%">
+</div>
 
 
 ####Recommendation Grove Modules
@@ -89,50 +98,91 @@ As an expansion board, Base Shield v2 has many Grove connectors, making it conve
 
 	Digital RGB LED Flexi-Strip is an intelligent light source, you could make super cool LED effect on your robot car with it.
 	
-	![](https://statics3.seeedstudio.com/images/product/60led%20Strip.jpg)
+	<div class="text-center">
+	<img src="https://github.com/SeeedDocument/Tricycle_Bot/blob/master/images/ledstrip.jpg?raw=true" width="50%" height="50%">
+	</div>
 
 - **[Grove - Ultrasonic Ranger](https://www.seeedstudio.com/Grove-Ultrasonic-Ranger-p-960.html)**  
 
 	This Grove - Ultrasonic sensor is a non-contact distance measurement module, suitable for robot car obstacle detection.
-	![](https://raw.githubusercontent.com/SeeedDocument/Grove_Ultrasonic_Ranger/master/image/350px-Ultrasonic_Ranger.jpg)
-
+	
+	<div class="text-center">
+	<img src="https://raw.githubusercontent.com/SeeedDocument/Grove_Ultrasonic_Ranger/master/image/350px-Ultrasonic_Ranger.jpg" width="50%" height="50%">
+	</div>	
+	
 - **[Grove Line Finder](https://www.seeedstudio.com/Grove-Line-Finder-p-825.html)**
 	
 	Line finder Grove is designed for line following robot.
-	![](https://github.com/SeeedDocument/Grove_Line_Finder/raw/master/images/Grovelinefinder1.jpg)
+	
+	<div class="text-center">
+	<img src="https://github.com/SeeedDocument/Grove_Line_Finder/raw/master/images/Grovelinefinder1.jpg" width="50%" height="50%">
+	</div>	
 	
 - **[Grove Buzzer](https://www.seeedstudio.com/Grove-Buzzer-p-768.html)**
 
 	Grove Buzzer is an easy-to-use module for making sound.
-	![](https://github.com/SeeedDocument/Grove_Buzzer/raw/master/images/Grove%20Buzzer.jpg)
+	
+	<div class="text-center">
+	<img src="https://github.com/SeeedDocument/Grove_Buzzer/raw/master/images/Grove%20Buzzer.jpg" width="50%" height="50%">
+	</div>	
 
 - **[Grove Serial RF Pro](https://www.seeedstudio.com/Grove-Serial-RF-Pro-p-794.html)**
 
 	With Grove Serial RF Pro, you are able to remote controll your DIY robot car!  
-	![](https://statics3.seeedstudio.com/images/113030000%201.jpg)
+	
+	<div class="text-center">
+	<img src="https://github.com/SeeedDocument/Tricycle_Bot/blob/master/images/rf.jpg?raw=true" width="50%" height="50%">
+	</div>	
 	
 - **[Grove Serial Bluetooth v3.0](https://www.seeedstudio.com/Grove-Serial-Bluetooth-v3.0-p-2475.html)**
 
 	Grove - Serial Bluetooth is an easy to use module compatible with the existing Grove Base Shield, and designed for transparent wireless serial connection setup. 
-	![](https://raw.githubusercontent.com/SeeedDocument/Grove-Serial_Bluetooth_v3.0/master/img/Grove-Serial_Bluetooth_v3.0.jpg)
+
+	<div class="text-center">
+	<img src="https://raw.githubusercontent.com/SeeedDocument/Grove-Serial_Bluetooth_v3.0/master/img/Grove-Serial_Bluetooth_v3.0.jpg" width="50%" height="50%">
+	</div>		
 
 ###Raspberry Pi Platform
 
-树莓派是目前最火热的linux board computer之一，网上资源丰富，最新版的树莓派自带wifi和蓝牙功能，方便做远程控制 他的性能要比arduino强大许多，编程门槛较高，
-The Raspberry Pi is one of the most popular single-board computer now, it has much more powerful computing performance than Arduino, 
+The Raspberry Pi is one of the most popular single-board computer now, it has much more powerful computing performance than Arduino. As Raspberry Pi is so popular, you can easily find many tutorials of funny projects.  
 
 ####[Raspberry Pi Motor Board v1.0](https://www.seeedstudio.com/Raspberry-Pi-Motor-Board-v1.0-p-2411.html)
 
+The Raspberry Pi 3 has included integrated 802.11 b/g/n wireless LAN, Bluetooth Classical and LE. You didn’t need additional peripherals to make it wireless. It is 10x the performance of Raspberry Pi 1.
+
+<div class="text-center">
+<img src="https://statics3.seeedstudio.com/seeed/img/2016-08/xuZp3Msf6xeHp96wPFjInzco.jpg" width="50%" height="50%">
+</div>	
+
+
+####[Raspberry Pi Motor Board v1.0](https://www.seeedstudio.com/Raspberry-Pi-Motor-Board-v1.0-p-2411.html)
+
+Raspberry Pi Motor Board lets you drive two DC motors with your Raspberry Pi, controlling the speed and direction of each one independently.
+
+<div class="text-center">
+<img src="https://statics3.seeedstudio.com/images/product/103030031%201.jpg" width="50%" height="50%">
+</div>	
+
 ####[GrovePi+](https://www.seeedstudio.com/GrovePi%2B-p-2241.html)
+
+GrovePi+ is a system that brings Grove Modules to the Raspberry Pi. It adds support for the newly RaspberryPi Model B+ and Model A+.
+
+<div class="text-center">
+<img src="https://statics3.seeedstudio.com/product/110060049%2010_03.jpg" width="50%" height="50%">
+</div>	
+
+
 
 
 ####Recommendation Grove Modules
 
 - **[USB Webcam](https://www.seeedstudio.com/300K-Pixel-USB-2.0-Mini-Webcam-p-1499.html)**
 
-	Webcam is not a Grove module, but it can provide video streaming to your board. It is always cool to add a camera to your remote controlled robot car, so that you can see where its heading exactly. 
-	![](https://statics3.seeedstudio.com/product/Webcam_01.jpg)
-
+	Webcam is not a Grove module, but it can provide video streaming to your board. It is always cool to add a camera to your remote controlled robot car, so that you can see where its heading exactly.
+	
+	<div class="text-center">
+	<img src="https://github.com/SeeedDocument/Tricycle_Bot/blob/master/images/webcam.jpg?raw=true" width="50%" height="50%">
+	</div>
 
 
 ###BeagleBone Platform
@@ -144,36 +194,52 @@ BeagleBone is also one of the most popular linux single-board computer. Compared
 ####[BeagleBone Green Wireless](http://www.seeedstudio.com/SeeedStudio-BeagleBone-Green-Wireless-p-2650.html)
 SeeedStudio BeagleBone Green Wireless is based on the open-source hardware design of BeagleBone Black, but it has a high-performance flexible WiFi/Bluetooth interface, making it easier to develop remote controlled, such as [BBGW Wi-Fi Car](http://www.instructables.com/id/Super-Quickly-DIY-Web-RC-Car-With-Python-and-Beagl/).
 
-![](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/raw/master/images/BBGW_cover.png?raw=true)
+<div class="text-center">
+<img src="https://github.com/SeeedDocument/BeagleBone_Green_Wireless/raw/master/images/BBGW_cover.png?raw=true" width="50%" height="50%">
+</div>	
 
 ####[Motor Bridge Cape v1.0](https://www.seeedstudio.com/Motor-Bridge-Cape-p-2569.html)
-The Motor Bridge Cape can control two stepper motors or four brushed DC motors with 6~15V DC power and about 1A current draw per motor. It also has six servo control interfaces and six expand I\O, which means that you could DIY a robot arm on your robot car.  
+The Motor Bridge Cape can control two stepper motors or four brushed DC motors with 6~15V DC power and about 1A current draw per motor. It also has six servo control interfaces and six expand I\O, which means that you could expand one more robot arm on your robot car.  
 	
-![](https://raw.githubusercontent.com/SeeedDocument/Motor_Bridge_Cape_v1.0/master/img/Motor_bridge_driver.jpg)
+<div class="text-center">
+<img src="https://raw.githubusercontent.com/SeeedDocument/Motor_Bridge_Cape_v1.0/master/img/Motor_bridge_driver.jpg" width="50%" height="50%">
+</div>	
+
 
 ####[Grove Base Cape for BeagleBone v2](https://www.seeedstudio.com/Grove-Base-Cape-for-Beaglebone-v2.0-p-2644.html)
 Grove Base Cape for BeagleBone v2 is a Grove system expansion board for BeagleBone platform. This cape makes it convenient to connect many transducers (sensors and actuators) available as Grove modules with BeagleBone platform. 
 
-![](https://github.com/SeeedDocument/Grove_Base_Cape_for_BeagleBone_v2/raw/master/img/Grove_Base_Cape_for_BeagleBone_v2_product_view_1200.jpg)
+<div class="text-center">
+<img src="https://github.com/SeeedDocument/Grove_Base_Cape_for_BeagleBone_v2/raw/master/img/Grove_Base_Cape_for_BeagleBone_v2_product_view_1200.jpg" width="50%" height="50%">
+</div>	
+
 
 ####Recommendation Grove Modules
 
 - **[USB Webcam](https://www.seeedstudio.com/300K-Pixel-USB-2.0-Mini-Webcam-p-1499.html)**
 
 	Webcam is not a Grove module, but it can provide video streaming to your board. It is always cool to add a camera to your remote controlled robot car, so that you can see where its heading exactly. 
-	![](https://statics3.seeedstudio.com/product/Webcam_01.jpg)
 	
-	
+	<div class="text-center">
+	<img src="https://github.com/SeeedDocument/Tricycle_Bot/blob/master/images/webcam.jpg?raw=true" width="50%" height="50%">
+	</div>
+		
 - **[Digital RGB LED Flexi-Strip](https://www.seeedstudio.com/Digital-RGB-LED-Flexi-Strip-60-LED-1-Meter-p-1666.html)**
 
 	Digital RGB LED Flexi-Strip is an intelligent light source, you could make super cool LED effect on your robot car with it.
 	
-	![](https://statics3.seeedstudio.com/images/product/60led%20Strip.jpg)
+	<div class="text-center">
+	<img src="https://github.com/SeeedDocument/Tricycle_Bot/blob/master/images/ledstrip.jpg?raw=true" width="50%" height="50%">
+	</div>
 
 - **[Grove - IMU 9DOF v2.0](http://www.seeedstudio.com/Grove-IMU-9DOF-v2.0-p-2400.html)**
 
 	Grove - IMU 9DOF v2.0 features three 16-bit ADC for digitizing the gyroscope outputs and three 16-bit ADCs for digitizing the accelerometer outputs and three 16-bit ADCs for digitizing the magnetometer outputs, providing you to detect the movement posture of the robot car.
-	![](https://raw.githubusercontent.com/SeeedDocument/Grove-IMU_9DOF_v2.0/master/img/Grove-IMU_9DOF_v2.0.JPG)
+
+	<div class="text-center">
+	<img src="https://raw.githubusercontent.com/SeeedDocument/Grove-IMU_9DOF_v2.0/master/img/Grove-IMU_9DOF_v2.0.JPG" width="50%" height="50%">
+	</div>
+
 
 ##Simple Example
 
@@ -182,7 +248,7 @@ Here is a simple example of making a Tricycle Bot with Arduino.
 Arduino UNO, [Motor Shield V2.0](https://www.seeedstudio.com/Motor-Shield-V2.0-p-1377.html),[Base Shield V2](https://www.seeedstudio.com/Base-Shield-V2-p-1378.html),is used,12
 
 <div class="img-wrapper ng-scope" ng-if="fileType === 'video'">
-<video ng-src="http://ohpam657y.bkt.clouddn.com/IMG_1346%202.MOV" width="280" controls="" src="http://ohpam657y.bkt.clouddn.com/IMG_1346%202.MOV"></video>
+<video ng-src="http://ohpam657y.bkt.clouddn.com/IMG_1346%202.MOV" width="320" controls="" src="http://ohpam657y.bkt.clouddn.com/IMG_1346%202.MOV"></video>
 </div>
 
 ##Attachments
