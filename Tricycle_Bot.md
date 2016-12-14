@@ -243,13 +243,173 @@ Grove Base Cape for BeagleBone v2 is a Grove system expansion board for BeagleBo
 
 ##Simple Example
 
-Here is a simple example of making a Tricycle Bot with Arduino.
+Here is a simple example of making a Tricycle Bot with Arduino UNO.
 
-Arduino UNO, [Motor Shield V2.0](https://www.seeedstudio.com/Motor-Shield-V2.0-p-1377.html),[Base Shield V2](https://www.seeedstudio.com/Base-Shield-V2-p-1378.html),is used,12
+###Things we need
 
-<div class="img-wrapper ng-scope" ng-if="fileType === 'video'">
-<video ng-src="http://ohpam657y.bkt.clouddn.com/IMG_1346%202.MOV" width="320" controls="" src="http://ohpam657y.bkt.clouddn.com/IMG_1346%202.MOV"></video>
+![](https://github.com/SeeedDocument/Tricycle_Bot/blob/master/images/7.png?raw=true)
+
+- [Arduino UNO](https://www.arduino.cc/en/Main/ArduinoBoardUno) *1
+- [Motor Shield V2.0](https://www.seeedstudio.com/Motor-Shield-V2.0-p-1377.html) *1
+- [Base Shield V2](https://www.seeedstudio.com/Base-Shield-V2-p-1378.html) *1
+- [Tricycle Bot]() *1
+- [Digital RGB LED Flexi-Strip](https://www.seeedstudio.com/Digital-RGB-LED-Flexi-Strip-60-LED-1-Meter-p-1666.html) *1
+- [Grove - Ultrasonic Ranger](https://www.seeedstudio.com/Grove-Ultrasonic-Ranger-p-960.html) *1
+- [Grove Buzzer](https://www.seeedstudio.com/Grove-Buzzer-p-768.html) *1
+
+###Assemble
+
+<div class="text-center">
+<img src="https://github.com/SeeedDocument/Tricycle_Bot/blob/master/images/5.jpg?raw=true" width="50%" height="50%">
 </div>
+
+1. [Assemble the Tricycle Bot.](https://github.com/SeeedDocument/Tricycle_Bot/blob/master/Tricycle_Bot.md#assembly-introdutions)
+2. Fix the Grove modules on the shores and top plate. 
+3. Connect Grove Buzzer to **D4**, Grove Ultrasonic Ranger to **D5** and LED strip to **D6** of the Base Shield.
+4. Finish it! 
+
+<div class="text-center">
+<img src="https://github.com/SeeedDocument/Tricycle_Bot/blob/master/images/6.jpg?raw=true" width="50%" height="50%">
+</div>
+
+###Coding
+
+
+
+
+```
+ /*
+ * TricycleBotDemo.ino
+ *
+ * Simple code for Tricycle Bot
+ *
+ * Copyright (c) 2016 Seeed Technology Limited.
+ * MIT license
+ *
+ */
+ 
+
+#include "MotorDriver.h"
+#include "Adafruit_NeoPixel.h"
+#include "Ultrasonic.h"
+
+
+#define BEE           4
+#define LEDPIN        6
+#define LEDNUM        10
+#define PIXELS_SPACE  128
+#define BRIGHTNESS    150
+#define DistanceCM    35
+
+Adafruit_NeoPixel strip = Adafruit_NeoPixel(LEDNUM, LEDPIN, NEO_GRB + NEO_KHZ800);
+MotorDriver motor;
+Ultrasonic ultrasonic(5);
+
+
+
+void setup() {
+  // put your setup code here, to run once:
+  pinMode(BEE, OUTPUT);
+	strip.setBrightness(BRIGHTNESS);
+ 	strip.begin();
+  strip.show(); 
+  motor.begin();
+  pixelStart();
+}
+
+
+
+void loop() {
+
+  // put your main code here, to run repeatedly:
+  	long RangeInCentimeters;
+    RangeInCentimeters = ultrasonic.MeasureInCentimeters();
+
+    if (RangeInCentimeters < DistanceCM) {
+    	turnRight();
+      beep();
+    	pixelState2();
+    }
+    else {
+    	goStraight();
+    	pixelState1();
+    }
+    
+    delay(100);
+}
+
+void goStraight() {
+	motor.speed(0, 100);
+	motor.speed(1, 100);
+}
+
+void turnRight() {
+	motor.speed(0, -100);
+	motor.speed(1, 100);
+}
+
+//go straight
+void pixelState1() {
+  for (uint32_t t = 0; t < (PIXELS_SPACE * LEDNUM); ++t) {
+    for (int i = 0; i < (LEDNUM / 2); i++) {
+      strip.setPixelColor(((LEDNUM / 2) - i -1) , triangular_color((t + i * PIXELS_SPACE) % (PIXELS_SPACE * LEDNUM)));
+      strip.setPixelColor(i + 5, triangular_color((t + i * PIXELS_SPACE) % (PIXELS_SPACE * LEDNUM)));
+    }
+    strip.show();
+  }
+}
+
+//turn right
+void pixelState2() {
+  for (int i = 0; i < 3; i++) {
+    for (int j = 0; j < LEDNUM; j++) {
+      strip.setPixelColor(j, 250, 0, 0);
+      strip.show();
+    }
+    delay(50);
+    for (int j = 0; j < LEDNUM; j++) {
+      strip.setPixelColor(j, 0, 0, 0);
+      strip.show();
+    }
+    delay(50);
+  }
+}
+
+void pixelStart() {
+	for (int i = 0; i < LEDNUM; i++) {
+    for (int j = 0; j< 255; j++) {
+			strip.setPixelColor(i, 0, j, 0);
+      strip.show();
+    }
+    delay(50);
+	}
+}
+
+
+uint32_t triangular_color(uint32_t t) {
+  uint32_t c = 0;
+
+  if (t < 256) {
+    c = strip.Color(0, 0, t);
+  } else if (t < 512) {
+    c = strip.Color(0, 0, 511 - t);
+  }
+
+  return c;
+}
+
+void beep() {
+  digitalWrite(BEE, HIGH);
+  delay(100);
+  digitalWrite(BEE, LOW);
+}
+```
+
+Arduino UNO, ,[Base Shield V2](https://www.seeedstudio.com/Base-Shield-V2-p-1378.html),is used,12
+	
+	<div class="img-wrapper ng-scope" ng-if="fileType === 'video'">
+	<video ng-src="http://ohpam657y.bkt.clouddn.com/IMG_1346%202.MOV" width="320" controls="" src="http://ohpam657y.bkt.clouddn.com/IMG_1346%202.MOV"></video>
+	</div>
 
 ##Attachments
 
