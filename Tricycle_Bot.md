@@ -1,6 +1,3 @@
-#Tricycle Bot
-
-##Introduction
 
 ![](https://github.com/SeeedDocument/Tricycle_Bot/blob/master/img/3.jpg?raw=true)
 
@@ -71,7 +68,7 @@ Arduino is the most famous open-source prototyping platform as its easy-to-use h
 Seeeduino v4 is an Open Source, Arduino-compatible ATmega328 MCU development board. We think Seeeduino v4 is one of the best Arduino derivatives/compatibles available. Seeeduino v4 is feature rich, much more stable, easy-to-use and even good looking.
 
 <div class="text-center">
-<img src="https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/img/cover.JPG?raw=true" width="50%" height="50%">
+<img src="https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/images/cover.JPG?raw=true" width="50%" height="50%">
 </div>
 
 
@@ -187,7 +184,7 @@ GrovePi+ is a system that brings Grove Modules to the Raspberry Pi. It adds supp
 	With Grove - OLED Display, you are able to get the running state and the data of the robot car.
 	
 	<div class="text-center">
-	<img src="https://raw.githubusercontent.com/SeeedDocument/Grove_OLED_1.12/master/img/main.jpg" width="50%" height="50%">
+	<img src="https://raw.githubusercontent.com/SeeedDocument/Grove_OLED_1.12/master/images/main.jpg" width="50%" height="50%">
 	</div>
 	
 	
@@ -217,7 +214,7 @@ BeagleBone is also one of the most popular linux single-board computer. Compared
 SeeedStudio BeagleBone Green Wireless is based on the open-source hardware design of BeagleBone Black, but it has a high-performance flexible WiFi/Bluetooth interface, making it easier to develop remote controlled, such as [BBGW Wi-Fi Car](http://www.instructables.com/id/Super-Quickly-DIY-Web-RC-Car-With-Python-and-Beagl/).
 
 <div class="text-center">
-<img src="https://github.com/SeeedDocument/BeagleBone_Green_Wireless/raw/master/img/BBGW_cover.png?raw=true" width="50%" height="50%">
+<img src="https://github.com/SeeedDocument/BeagleBone_Green_Wireless/raw/master/images/BBGW_cover.png?raw=true" width="50%" height="50%">
 </div>	
 
 ####[Motor Bridge Cape v1.0](https://www.seeedstudio.com/Motor-Bridge-Cape-p-2569.html)
@@ -267,7 +264,7 @@ Grove Base Cape for BeagleBone v2 is a Grove system expansion board for BeagleBo
 	With Grove - OLED Display, you are able to get the running state and the data of the robot car.
 	
 	<div class="text-center">
-	<img src="https://raw.githubusercontent.com/SeeedDocument/Grove_OLED_1.12/master/img/main.jpg" width="50%" height="50%">
+	<img src="https://raw.githubusercontent.com/SeeedDocument/Grove_OLED_1.12/master/images/main.jpg" width="50%" height="50%">
 	</div>
 	
 	
