@@ -2,7 +2,7 @@
 
 ##Introduction
 
-![](https://github.com/SeeedDocument/Tricycle_Bot/blob/master/images/3.jpg?raw=true)
+![](https://github.com/SeeedDocument/Tricycle_Bot/blob/master/img/3.jpg?raw=true)
 
 The Tricycle Bot is a easy-to-assemble and Grove_Compatible DIY Robot platform for education. It includes the eletronic materials and structure materials which could be assembled easily via the guideline. The Tricycle Bot has three floors and five shores between the 2nd and 3th floor, the 3th floor can be fixed many modules via screws and nuts.
 
@@ -18,7 +18,7 @@ Further more, you can fix the Arduino board and breadboard as the heart of the r
 
 ##Part List
 
-![](https://github.com/SeeedDocument/Tricycle_Bot/blob/master/images/4.jpg?raw=true)
+![](https://github.com/SeeedDocument/Tricycle_Bot/blob/master/img/4.jpg?raw=true)
 
 |Parts name|Specification|Quantity|
 |:---------|:-----------:|:------:|
@@ -50,9 +50,9 @@ Further more, you can fix the Arduino board and breadboard as the heart of the r
 
 ##Assembly Introdutions
 
-![](https://github.com/SeeedDocument/Tricycle_Bot/blob/master/images/1.png?raw=true)
+![](https://github.com/SeeedDocument/Tricycle_Bot/blob/master/img/1.png?raw=true)
 
-![](https://github.com/SeeedDocument/Tricycle_Bot/blob/master/images/2.png?raw=true)
+![](https://github.com/SeeedDocument/Tricycle_Bot/blob/master/img/2.png?raw=true)
 
 ##Platform Recommendation
 
@@ -71,7 +71,7 @@ Arduino is the most famous open-source prototyping platform as its easy-to-use h
 Seeeduino v4 is an Open Source, Arduino-compatible ATmega328 MCU development board. We think Seeeduino v4 is one of the best Arduino derivatives/compatibles available. Seeeduino v4 is feature rich, much more stable, easy-to-use and even good looking.
 
 <div class="text-center">
-<img src="https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/images/cover.JPG?raw=true" width="50%" height="50%">
+<img src="https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/img/cover.JPG?raw=true" width="50%" height="50%">
 </div>
 
 
@@ -99,7 +99,7 @@ As an expansion board, Base Shield v2 has many Grove connectors, making it conve
 	Digital RGB LED Flexi-Strip is an intelligent light source, you could make super cool LED effect on your robot car with it.
 	
 	<div class="text-center">
-	<img src="https://github.com/SeeedDocument/Tricycle_Bot/blob/master/images/ledstrip.jpg?raw=true" width="50%" height="50%">
+	<img src="https://github.com/SeeedDocument/Tricycle_Bot/blob/master/img/ledstrip.jpg?raw=true" width="50%" height="50%">
 	</div>
 
 - **[Grove - Ultrasonic Ranger](https://www.seeedstudio.com/Grove-Ultrasonic-Ranger-p-960.html)**  
@@ -115,7 +115,7 @@ As an expansion board, Base Shield v2 has many Grove connectors, making it conve
 	Line finder Grove is designed for line following robot.
 	
 	<div class="text-center">
-	<img src="https://github.com/SeeedDocument/Grove_Line_Finder/raw/master/images/Grovelinefinder1.jpg" width="50%" height="50%">
+	<img src="https://github.com/SeeedDocument/Grove_Line_Finder/raw/master/img/Grovelinefinder1.jpg" width="50%" height="50%">
 	</div>	
 	
 - **[Grove Buzzer](https://www.seeedstudio.com/Grove-Buzzer-p-768.html)**
@@ -123,7 +123,7 @@ As an expansion board, Base Shield v2 has many Grove connectors, making it conve
 	Grove Buzzer is an easy-to-use module for making sound.
 	
 	<div class="text-center">
-	<img src="https://github.com/SeeedDocument/Grove_Buzzer/raw/master/images/Grove%20Buzzer.jpg" width="50%" height="50%">
+	<img src="https://github.com/SeeedDocument/Grove_Buzzer/raw/master/img/Grove%20Buzzer.jpg" width="50%" height="50%">
 	</div>	
 
 - **[Grove Serial RF Pro](https://www.seeedstudio.com/Grove-Serial-RF-Pro-p-794.html)**
@@ -131,7 +131,7 @@ As an expansion board, Base Shield v2 has many Grove connectors, making it conve
 	With Grove Serial RF Pro, you are able to remote controll your DIY robot car!  
 	
 	<div class="text-center">
-	<img src="https://github.com/SeeedDocument/Tricycle_Bot/blob/master/images/rf.jpg?raw=true" width="50%" height="50%">
+	<img src="https://github.com/SeeedDocument/Tricycle_Bot/blob/master/img/rf.jpg?raw=true" width="50%" height="50%">
 	</div>	
 	
 - **[Grove Serial Bluetooth v3.0](https://www.seeedstudio.com/Grove-Serial-Bluetooth-v3.0-p-2475.html)**
@@ -179,7 +179,7 @@ GrovePi+ is a system that brings Grove Modules to the Raspberry Pi. It adds supp
 	Webcam is not a Grove module, but it can provide video streaming to your board. It is always cool to add a camera to your remote controlled robot car, so that you can see where its heading exactly.
 	
 	<div class="text-center">
-	<img src="https://github.com/SeeedDocument/Tricycle_Bot/blob/master/images/webcam.jpg?raw=true" width="50%" height="50%">
+	<img src="https://github.com/SeeedDocument/Tricycle_Bot/blob/master/img/webcam.jpg?raw=true" width="50%" height="50%">
 	</div>
 
 - **[Grove - OLED Display 1.12"](http://www.seeedstudio.com/Grove-OLED-Display-1.12%22-p-824.html)**
@@ -187,7 +187,7 @@ GrovePi+ is a system that brings Grove Modules to the Raspberry Pi. It adds supp
 	With Grove - OLED Display, you are able to get the running state and the data of the robot car.
 	
 	<div class="text-center">
-	<img src="https://raw.githubusercontent.com/SeeedDocument/Grove_OLED_1.12/master/images/main.jpg" width="50%" height="50%">
+	<img src="https://raw.githubusercontent.com/SeeedDocument/Grove_OLED_1.12/master/img/main.jpg" width="50%" height="50%">
 	</div>
 	
 	
@@ -217,7 +217,7 @@ BeagleBone is also one of the most popular linux single-board computer. Compared
 SeeedStudio BeagleBone Green Wireless is based on the open-source hardware design of BeagleBone Black, but it has a high-performance flexible WiFi/Bluetooth interface, making it easier to develop remote controlled, such as [BBGW Wi-Fi Car](http://www.instructables.com/id/Super-Quickly-DIY-Web-RC-Car-With-Python-and-Beagl/).
 
 <div class="text-center">
-<img src="https://github.com/SeeedDocument/BeagleBone_Green_Wireless/raw/master/images/BBGW_cover.png?raw=true" width="50%" height="50%">
+<img src="https://github.com/SeeedDocument/BeagleBone_Green_Wireless/raw/master/img/BBGW_cover.png?raw=true" width="50%" height="50%">
 </div>	
 
 ####[Motor Bridge Cape v1.0](https://www.seeedstudio.com/Motor-Bridge-Cape-p-2569.html)
@@ -243,7 +243,7 @@ Grove Base Cape for BeagleBone v2 is a Grove system expansion board for BeagleBo
 	Webcam is not a Grove module, but it can provide video streaming to your board. It is always cool to add a camera to your remote controlled robot car, so that you can see where its heading exactly. 
 	
 	<div class="text-center">
-	<img src="https://github.com/SeeedDocument/Tricycle_Bot/blob/master/images/webcam.jpg?raw=true" width="50%" height="50%">
+	<img src="https://github.com/SeeedDocument/Tricycle_Bot/blob/master/img/webcam.jpg?raw=true" width="50%" height="50%">
 	</div>
 		
 - **[Digital RGB LED Flexi-Strip](https://www.seeedstudio.com/Digital-RGB-LED-Flexi-Strip-60-LED-1-Meter-p-1666.html)**
@@ -251,7 +251,7 @@ Grove Base Cape for BeagleBone v2 is a Grove system expansion board for BeagleBo
 	Digital RGB LED Flexi-Strip is an intelligent light source, you could make super cool LED effect on your robot car with it.
 	
 	<div class="text-center">
-	<img src="https://github.com/SeeedDocument/Tricycle_Bot/blob/master/images/ledstrip.jpg?raw=true" width="50%" height="50%">
+	<img src="https://github.com/SeeedDocument/Tricycle_Bot/blob/master/img/ledstrip.jpg?raw=true" width="50%" height="50%">
 	</div>
 
 - **[Grove - IMU 9DOF v2.0](http://www.seeedstudio.com/Grove-IMU-9DOF-v2.0-p-2400.html)**
@@ -267,7 +267,7 @@ Grove Base Cape for BeagleBone v2 is a Grove system expansion board for BeagleBo
 	With Grove - OLED Display, you are able to get the running state and the data of the robot car.
 	
 	<div class="text-center">
-	<img src="https://raw.githubusercontent.com/SeeedDocument/Grove_OLED_1.12/master/images/main.jpg" width="50%" height="50%">
+	<img src="https://raw.githubusercontent.com/SeeedDocument/Grove_OLED_1.12/master/img/main.jpg" width="50%" height="50%">
 	</div>
 	
 	
@@ -293,7 +293,7 @@ Here is a simple example of making a Tricycle Bot with Arduino UNO.
 
 ###Things we need
 
-![](https://github.com/SeeedDocument/Tricycle_Bot/blob/master/images/7.png?raw=true)
+![](https://github.com/SeeedDocument/Tricycle_Bot/blob/master/img/7.png?raw=true)
 
 - [Arduino UNO](https://www.arduino.cc/en/Main/ArduinoBoardUno) *1
 - [Motor Shield V2.0](https://www.seeedstudio.com/Motor-Shield-V2.0-p-1377.html) *1
@@ -306,7 +306,7 @@ Here is a simple example of making a Tricycle Bot with Arduino UNO.
 ###Assemble
 
 <div class="text-center">
-<img src="https://github.com/SeeedDocument/Tricycle_Bot/blob/master/images/5.jpg?raw=true" width="50%" height="50%">
+<img src="https://github.com/SeeedDocument/Tricycle_Bot/blob/master/img/5.jpg?raw=true" width="50%" height="50%">
 </div>
 
 1. [Assemble the Tricycle Bot.](https://github.com/SeeedDocument/Tricycle_Bot/blob/master/Tricycle_Bot.md#assembly-introdutions)
@@ -315,7 +315,7 @@ Here is a simple example of making a Tricycle Bot with Arduino UNO.
 4. Finish it! 
 
 <div class="text-center">
-<img src="https://github.com/SeeedDocument/Tricycle_Bot/blob/master/images/6.jpg?raw=true" width="50%" height="50%">
+<img src="https://github.com/SeeedDocument/Tricycle_Bot/blob/master/img/6.jpg?raw=true" width="50%" height="50%">
 </div>
 
 ###Show
@@ -457,6 +457,6 @@ void beep() {
 
 ##Attachments
 
-[Tricycle Bot Assembly Instructions(pdf)](https://github.com/SeeedDocument/Tricycle_Bot/blob/master/resources/Tricycle%20Bot%20Assembly%20Instructions.pdf)
+[Tricycle Bot Assembly Instructions(pdf)](https://github.com/SeeedDocument/Tricycle_Bot/blob/master/res/Tricycle%20Bot%20Assembly%20Instructions.pdf)
 
 
