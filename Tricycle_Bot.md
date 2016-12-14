@@ -172,8 +172,6 @@ GrovePi+ is a system that brings Grove Modules to the Raspberry Pi. It adds supp
 </div>	
 
 
-
-
 ####Recommendation Grove Modules
 
 - **[USB Webcam](https://www.seeedstudio.com/300K-Pixel-USB-2.0-Mini-Webcam-p-1499.html)**
@@ -184,6 +182,30 @@ GrovePi+ is a system that brings Grove Modules to the Raspberry Pi. It adds supp
 	<img src="https://github.com/SeeedDocument/Tricycle_Bot/blob/master/images/webcam.jpg?raw=true" width="50%" height="50%">
 	</div>
 
+- **[Grove - OLED Display 1.12"](http://www.seeedstudio.com/Grove-OLED-Display-1.12%22-p-824.html)**
+
+	With Grove - OLED Display, you are able to get the running state and the data of the robot car.
+	
+	<div class="text-center">
+	<img src="https://raw.githubusercontent.com/SeeedDocument/Grove_OLED_1.12/master/images/main.jpg" width="50%" height="50%">
+	</div>
+	
+	
+- **[Grove - Digital Light Sensor](http://www.seeedstudio.com/Grove-Digital-Light-Sensor-p-1281.html)**
+
+	This module is designed for detecting the light intensity of the environment.
+	
+	<div class="text-center">
+	<img src="https://raw.githubusercontent.com/SeeedDocument/Grove-Digital_Light_Sensor/master/img/Digital_Light_Sensor.jpg" width="50%" height="50%">
+	</div>	
+	
+- **[Grove - GPS](http://www.seeedstudio.com/depot/grove-gps-p-959.html)**
+
+	This Grove - GPS module features 22 tracking / 66 acquisition channel GPS receiver. The sensitivity of tracking and acquisition both reach up to -160dBm, making it a great choice for personal navigation projects and location services, as well as an outstanding one among products of the same price class.
+	
+	<div class="text-center">
+	<img src="https://raw.githubusercontent.com/SeeedDocument/Grove-GPS/master/img/Grove-GPS.jpg" width="50%" height="50%">
+	</div>		
 
 ###BeagleBone Platform
 
@@ -240,7 +262,31 @@ Grove Base Cape for BeagleBone v2 is a Grove system expansion board for BeagleBo
 	<img src="https://raw.githubusercontent.com/SeeedDocument/Grove-IMU_9DOF_v2.0/master/img/Grove-IMU_9DOF_v2.0.JPG" width="50%" height="50%">
 	</div>
 
+- **[Grove - OLED Display 1.12"](http://www.seeedstudio.com/Grove-OLED-Display-1.12%22-p-824.html)**
 
+	With Grove - OLED Display, you are able to get the running state and the data of the robot car.
+	
+	<div class="text-center">
+	<img src="https://raw.githubusercontent.com/SeeedDocument/Grove_OLED_1.12/master/images/main.jpg" width="50%" height="50%">
+	</div>
+	
+	
+- **[Grove - Digital Light Sensor](http://www.seeedstudio.com/Grove-Digital-Light-Sensor-p-1281.html)**
+
+	This module is designed for detecting the light intensity of the environment.
+	
+	<div class="text-center">
+	<img src="https://raw.githubusercontent.com/SeeedDocument/Grove-Digital_Light_Sensor/master/img/Digital_Light_Sensor.jpg" width="50%" height="50%">
+	</div>	
+	
+- **[Grove - GPS](http://www.seeedstudio.com/depot/grove-gps-p-959.html)**
+
+	This Grove - GPS module features 22 tracking / 66 acquisition channel GPS receiver. The sensitivity of tracking and acquisition both reach up to -160dBm, making it a great choice for personal navigation projects and location services, as well as an outstanding one among products of the same price class.
+	
+	<div class="text-center">
+	<img src="https://raw.githubusercontent.com/SeeedDocument/Grove-GPS/master/img/Grove-GPS.jpg" width="50%" height="50%">
+	</div>		
+	
 ##Simple Example
 
 Here is a simple example of making a Tricycle Bot with Arduino UNO.
@@ -255,7 +301,7 @@ Here is a simple example of making a Tricycle Bot with Arduino UNO.
 - [Tricycle Bot]() *1
 - [Digital RGB LED Flexi-Strip](https://www.seeedstudio.com/Digital-RGB-LED-Flexi-Strip-60-LED-1-Meter-p-1666.html) *1
 - [Grove - Ultrasonic Ranger](https://www.seeedstudio.com/Grove-Ultrasonic-Ranger-p-960.html) *1
-- [Grove Buzzer](https://www.seeedstudio.com/Grove-Buzzer-p-768.html) *1
+- [Grove - Buzzer](https://www.seeedstudio.com/Grove-Buzzer-p-768.html) *1
 
 ###Assemble
 
@@ -272,9 +318,20 @@ Here is a simple example of making a Tricycle Bot with Arduino UNO.
 <img src="https://github.com/SeeedDocument/Tricycle_Bot/blob/master/images/6.jpg?raw=true" width="50%" height="50%">
 </div>
 
+###Show
+
+This is the [video](http://ohpam657y.bkt.clouddn.com/IMG_1346%202.MOV) of this simple example.
+
+	<div class="img-wrapper ng-scope" ng-if="fileType === 'video'">
+	<video ng-src="http://ohpam657y.bkt.clouddn.com/IMG_1346%202.MOV" width="700" controls="" src="http://ohpam657y.bkt.clouddn.com/IMG_1346%202.MOV"></video>
+</div>
+
+- This demo Tricycle Bot car is able to detect the obstacle before it, and make a turn when their distances are less than 35CM.
+- When the car goes straight, the LED strip will flash in blue，while the car is making a turn, the LED strip will flash in red and the Grove Buzzer will make a noise to warn.
+
 ###Coding
 
-
+- Download the Arduino Library of [Motor Shield V2](https://github.com/Seeed-Studio/SeeedMotorShieldV2), [Grove - Ultrasonic Ranger](https://github.com/Seeed-Studio/Grove_Ultrasonic_Ranger) and [LED Strip](https://github.com/adafruit/Adafruit_NeoPixel).
 
 
 ```
@@ -288,11 +345,9 @@ Here is a simple example of making a Tricycle Bot with Arduino UNO.
  *
  */
  
-
 #include "MotorDriver.h"
 #include "Adafruit_NeoPixel.h"
 #include "Ultrasonic.h"
-
 
 #define BEE           4
 #define LEDPIN        6
@@ -305,8 +360,6 @@ Adafruit_NeoPixel strip = Adafruit_NeoPixel(LEDNUM, LEDPIN, NEO_GRB + NEO_KHZ800
 MotorDriver motor;
 Ultrasonic ultrasonic(5);
 
-
-
 void setup() {
   // put your setup code here, to run once:
   pinMode(BEE, OUTPUT);
@@ -316,8 +369,6 @@ void setup() {
   motor.begin();
   pixelStart();
 }
-
-
 
 void loop() {
 
@@ -334,7 +385,6 @@ void loop() {
     	goStraight();
     	pixelState1();
     }
-    
     delay(100);
 }
 
@@ -385,7 +435,6 @@ void pixelStart() {
 	}
 }
 
-
 uint32_t triangular_color(uint32_t t) {
   uint32_t c = 0;
 
@@ -404,12 +453,7 @@ void beep() {
   digitalWrite(BEE, LOW);
 }
 ```
-
-Arduino UNO, ,[Base Shield V2](https://www.seeedstudio.com/Base-Shield-V2-p-1378.html),is used,12
 	
-	<div class="img-wrapper ng-scope" ng-if="fileType === 'video'">
-	<video ng-src="http://ohpam657y.bkt.clouddn.com/IMG_1346%202.MOV" width="320" controls="" src="http://ohpam657y.bkt.clouddn.com/IMG_1346%202.MOV"></video>
-	</div>
 
 ##Attachments
 
