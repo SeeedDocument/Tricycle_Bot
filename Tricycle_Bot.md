@@ -322,8 +322,8 @@ Here is a simple example of making a Tricycle Bot with Arduino UNO.
 
 This is the [video](http://ohpam657y.bkt.clouddn.com/IMG_1346%202.MOV) of this simple example.
 
-	<div class="img-wrapper ng-scope" ng-if="fileType === 'video'">
-	<video ng-src="http://ohpam657y.bkt.clouddn.com/IMG_1346%202.MOV" width="700" controls="" src="http://ohpam657y.bkt.clouddn.com/IMG_1346%202.MOV"></video>
+<div class="img-wrapper ng-scope" ng-if="fileType === 'video'">
+<video ng-src="http://ohpam657y.bkt.clouddn.com/IMG_1346%202.MOV" width="700" controls="" src="http://ohpam657y.bkt.clouddn.com/IMG_1346%202.MOV"></video>
 </div>
 
 - This demo Tricycle Bot car is able to detect the obstacle before it, and make a turn when their distances are less than 35CM.
